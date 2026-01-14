@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  continue-on-error: true
+  continue-on-error: 'true'
   build:
     strategy:
       matrix:
